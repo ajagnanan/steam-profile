@@ -1,0 +1,10 @@
+{
+  "codeowners": ["@ajagnanan"],
+  "config_flow": true,
+  "documentation": "https://github.com/ajagnanan/steam-profile",
+  "domains": ["binary_sensor", "sensor"],
+  "homeassistant": "0.108.0",
+  "iot_class": "Cloud Polling",
+  "name": "Steam Profile",
+  "render_readme": true
+}

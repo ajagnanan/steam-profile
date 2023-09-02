@@ -1,0 +1,12 @@
+{
+  "domain": "steam_profile",
+  "name": "Steam Profile",
+  "codeowners": ["@ajagnanan"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/ajagnanan/steam-profile",
+  "iot_class": "cloud_polling",
+  "loggers": ["steam"],
+  "requirements": ["steamodd==4.21"],
+  "version": "1.0.0"
+}

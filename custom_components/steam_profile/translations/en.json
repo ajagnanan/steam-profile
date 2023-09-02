@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Use {account_id_url} to find your Steam account ID",
+                "data": {
+                    "api_key": "API Key",
+                    "account": "Steam account ID"
+                }
+            },
+            "reauth_confirm": {
+                "title": "Reauthenticate Integration",
+                "description": "The Steam integration needs to be manually re-authenticated\n\nYou can find your key here: {api_key_url}"
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "invalid_account": "Invalid account ID",
+            "unknown": "Unexpected error"
+        },
+        "abort": {
+            "already_configured": "Service is already configured",
+            "reauth_successful": "Re-authentication was successful"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "accounts": "Names of accounts to be monitored"
+                }
+            }
+        },
+        "error": {
+            "unauthorized": "Friends list restricted: Please refer to the documentation on how to see all other friends"
+        }
+    }
+}
